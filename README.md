@@ -8,5 +8,5 @@ docker build -t wlniao/webtools ./docker
 ```
 ### Usage:
 ```
-docker run -d --network host --restart=always --name tools wlniao/webtools
+docker run -d -p 80:5000 --restart=always --name tools wlniao/webtools
 ```
